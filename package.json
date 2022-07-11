@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tspackage",
+  "name": "hprananda-tspackage",
   "author": "Hare Prananda",
-  "module": "dist/tspackage.esm.js",
+  "module": "dist/hprananda-tspackage.esm.js",
   "size-limit": [
     {
-      "path": "dist/tspackage.cjs.production.min.js",
+      "path": "dist/hprananda-tspackage.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/tspackage.esm.js",
+      "path": "dist/hprananda-tspackage.esm.js",
       "limit": "10 KB"
     }
   ],
