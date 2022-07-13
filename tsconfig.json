@@ -2,6 +2,14 @@
   // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
   "include": ["src", "types"],
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "model/*": ["src/model/*"],
+      "obbo/*": ["src/dummy/obbo/*"],
+      "*": [
+        "src/*"
+      ]
+    },
     "module": "esnext",
     "lib": ["dom", "esnext"],
     "importHelpers": true,
